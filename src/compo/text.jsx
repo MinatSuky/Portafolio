@@ -4,7 +4,7 @@ const TypingAnimation = () => {
   const [text, setText] = useState('');
   const [showCursor, setShowCursor] = useState(true);
 
-  const fullText = 'Seebastian Gomez'; // Texto completo
+  const fullText = 'Seebastian Gómez'; // Texto completo
 
   useEffect(() => {
     let index = 0;
